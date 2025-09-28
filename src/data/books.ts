@@ -28,6 +28,8 @@ export interface Book {
   quote?: string;
   /** The category of the book. */
   category: string;
+  /** The  name of the library where the book is located. */
+  library?: string; 
 }
 
 /**
@@ -43,7 +45,7 @@ export interface BookCategory {
 /**
  * A list of books currently being read.
  */
-export const currentlyReadingBooks: Book[] = [
+export const CURRENTLY_READING_BOOKS: Book[] = [
   {
     title: 'When Breath Becomes Air',
     author: 'Kalanithi, Paul',
@@ -82,7 +84,7 @@ export const currentlyReadingBooks: Book[] = [
 /**
  * A list of books in the reading queue.
  */
-export const queueBooks: Book[] = [
+export const QUEUE_BOOKS: Book[] = [
   {
     title: 'Team of Teams: New Rules of Engagement for a Complex World',
     author: 'McChrystal, Stanley',
@@ -142,7 +144,7 @@ export const queueBooks: Book[] = [
 /**
  * A list of book categories.
  */
-export const readBooks: BookCategory[] = [
+export const READ_BOOKS: BookCategory[] = [
   {
     name: 'Fiction',
     books: [
