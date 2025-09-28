@@ -1,0 +1,18 @@
+{
+    "name": "personal-library",
+    "description": "An interactive personal library web app with AI personality analysis",
+    "version": "0.1.0",
+    "homepage": "https://github.com/isabelle-np/personal-library#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/isabelle-np/personal-library.git"
+    },
+    "author": {
+        "name": "Isabelle Nguyen Phuoc",
+        "url": "http://linkedin.com/in/inguyenphuoc"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "private": true
+}
