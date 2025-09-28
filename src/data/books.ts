@@ -397,7 +397,7 @@ export const READ_BOOKS: BookCategory[] = [
         author: 'Wainwright, Tom',
         deweyNumber: '364',
         category: 'Business & Tech',
-        goodreadsUrl: 'goodreads.com/book/show/25275733-narconomics',
+        goodreadsUrl: 'https://goodreads.com/book/show/25275733-narconomics',
         quote: 'The most important thing to understand about organized crime is that it is, above all, organized.',
         checkouts: [
           { date: 'FEB 12 2016', borrower: 'Economics Professor', color: 'red' },
