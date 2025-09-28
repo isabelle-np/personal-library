@@ -28,7 +28,7 @@ export interface Book {
   quote?: string;
   /** The category of the book. */
   category: string;
-  /** The  name of the library where the book is located. */
+  /** The name of the library where the book is located. */
   library?: string; 
 }
 
