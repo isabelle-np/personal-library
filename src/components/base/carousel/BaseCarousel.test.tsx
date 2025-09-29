@@ -7,7 +7,7 @@ import {
   BaseCarouselItem,
   BaseCarouselPrevious,
   BaseCarouselNext,
-} from "../../../src/components/base/carousel/BaseCarousel";
+} from "./BaseCarousel";
 
 // Mock embla-carousel to prevent errors during testing
 jest.mock("embla-carousel-react", () => {
