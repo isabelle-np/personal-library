@@ -37,5 +37,10 @@ This web app is an interactive list of my favorite books with an AI-generated an
 - Fully responsive layout across all devices.
 - SSR implementation
 - Redesign genre and status filtering to decouple.
+- Implement complex state management.
+- Fetch book data via API or store in DB (Goodreads no longer supports their API).
+- Cards are links and not buttons to be semantically correct.
+- Add unit tests for all components.
+- Improve AI analysis accuracy by integrating a more advanced model.
 
 I hope you enjoy learning more about me as an engineer and a person 📚

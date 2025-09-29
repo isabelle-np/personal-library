@@ -1,0 +1,65 @@
+/* Merged styles from globals.css into base.css to reduce duplication */
+
+/* Base styles for typography, resets, and global variables */
+@import url("https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Root variables for fonts, colors, and spacing */
+:root {
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-size: 16px;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --color-primary: #030213;
+  --color-secondary: #fee6a5;
+  --color-background: #fff;
+  --color-foreground: #000;
+  --color-muted: #ececf0;
+  --color-muted-foreground: #717182;
+  --color-accent: #e9ebef;
+  --color-accent-foreground: #030213;
+  --color-destructive: #d4183d;
+  --color-destructive-foreground: #ffffff;
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-input: transparent;
+  --color-input-background: #f3f3f5;
+  --color-switch-background: #cbced4;
+  --spacing-unit: 0.25rem;
+  --radius: 0.625rem;
+}
+
+/* Reset styles for consistent rendering across browsers */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base typography styles */
+html {
+  font-size: var(--font-size);
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  line-height: 1.5;
+}
+
+/* Additional global styles */
+@layer base {
+  * {
+    border: 1px solid var(--color-border);
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+  }
+
+  /* Removed button:hover styles to consolidate them into the BaseButton component */
+  a:hover, .hover-pointer:hover {
+    cursor: pointer;
+  }
+}

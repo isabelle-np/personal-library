@@ -1,7 +1,8 @@
 import React from 'react';
-import type { Book } from '../data/books';
-import { LIBRARIES } from '../data/libraries';
-import { getStampColor, getRandomOffset, getRandomRotation, getTypewriterFont, DEFAULT_LIBRARY } from '../utils/cardUtils';
+import type { Book } from '../../data/books';
+import { LIBRARIES } from '../../data/libraries';
+import { getStampColor, getRandomOffset, getRandomRotation, getTypewriterFont, DEFAULT_LIBRARY } from '../../utils/cardUtils';
+import { FORM_NUMBER_BASE } from "./formConstants";
 
 // Define the props for the LibraryCard component using TypeScript interface
 interface LibraryCardProps {
