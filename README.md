@@ -1,6 +1,6 @@
 # Personal Library
 
-This web app is an interactive list of my favorite books with an AI-generated analysis of my personality based off the library books.
+[This web app](https://personal-library-rvm5-kvibllwdw-isabelle-nps-projects.vercel.app/) is an interactive list of my favorite books with an AI-generated analysis of my personality based off the library books.
 
 ## Features
 
