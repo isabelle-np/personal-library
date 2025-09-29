@@ -24,7 +24,7 @@ export const getStampColor = (color: string | undefined = ''): string => {
     case 'brown':
       return 'text-amber-900';
     case 'green':
-      return 'text-green-600';
+      return 'text-green-300';
     default:
       console.warn(`Unexpected color: ${color}`);
       return 'text-gray-700';
