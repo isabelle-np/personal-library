@@ -8,7 +8,7 @@ import {
   BaseDialogTitle,
   BaseDialogDescription,
   BaseDialogClose,
-} from "../../../src/components/base/BaseDialog";
+} from "../../../src/components/base/dialog/BaseDialog";
 
 describe("BaseDialog", () => {
   it("renders dialog content when open", () => {
