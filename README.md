@@ -1,6 +1,17 @@
 # Personal Library
 
-[This web app](https://personal-library-rvm5-kvibllwdw-isabelle-nps-projects.vercel.app/) is an interactive list of my favorite books with an AI-generated analysis of my personality based off the library books.
+[This web app](https://personal-library-rvm5-kvibllwdw-isabelle-nps-projects.vercel.app/) is an interactive list of my favorite books with an AI-generated analysis of my personality based on the library books.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Future Enhancements](#future-enhancements)
+
 
 ## Features
 
@@ -10,37 +21,97 @@
 - **Goodreads Integration**: Clicking on a library card links to the Goodreads page for that book, allowing users to explore more details.
 - **Accessibility**: The page is fully accessible and passes an axe DevTools scan with no violations.
 
-
 ## Technologies Used
 
-- **Frontend**: React, Radix UI, Tailwind CSS
+- **UI and Frontend**: React, Radix UI, Tailwind CSS
 - **Build Tool**: Vite
+- **Carousel**: Embla Carousel React
+- **Icons**: Lucide React
+- **Utilities**: clsx, class-variance-authority, tailwind-merge
+- **Testing**: Jest, Testing Library (React, User Event, Jest DOM)
+- **TypeScript Support**: Type definitions for Jest, Node, React DOM
+- **Hosting**: Vercel
+- **Accessibility Testing**: axe DevTools
+- **Design**: Figma ([Mockup Link](https://www.figma.com/design/mve6jeokcjEJyzakmuNN4a/Library-Mock-Up?node-id=0-1&t=yrb0pyCtnYjoHgCl-1))
 
 ## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/personal-library.git
    ```
 
-1. Install dependencies:
+2. Navigate to the project directory:
+   ```bash
+   cd personal-library
+   ```
+
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-1. Start the development server:
+### Running the Application
+
+Start the development server:
    ```bash
    npm run dev
    ```
 
+The application will be available at `http://localhost:3000`.
+
+---
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+Please ensure your code adheres to the project's coding standards and includes relevant tests.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
 ## Future Enhancements
+
 - Fully responsive layout across all devices.
-- SSR implementation
+- SSR implementation.
 - Redesign genre and status filtering to decouple.
 - Implement complex state management.
 - Fetch book data via API or store in DB (Goodreads no longer supports their API).
 - Cards are links and not buttons to be semantically correct.
 - Add unit tests for all components.
 - Improve AI analysis accuracy by integrating a more advanced model.
+- Analytics insights to track user interactions, such as most viewed books or genres.
+- AI-powered recommendations for new books based on current books.
+- Screen reader testing with NVDA to ensure accessibility for visually impaired users.
 
 I hope you enjoy learning more about me as an engineer and a person 📚
