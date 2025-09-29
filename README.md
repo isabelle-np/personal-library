@@ -10,8 +10,8 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
+- [Contributing](#contributing)
 - [Future Enhancements](#future-enhancements)
-
 
 ## Features
 
@@ -69,8 +69,6 @@ Start the development server:
 
 The application will be available at `http://localhost:3000`.
 
----
-
 ## Contributing
 
 Contributions are welcome! To contribute:
@@ -92,13 +90,6 @@ Contributions are welcome! To contribute:
 
 Please ensure your code adheres to the project's coding standards and includes relevant tests.
 
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## Future Enhancements
 
