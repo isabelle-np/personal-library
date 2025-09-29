@@ -1,6 +1,6 @@
 import { describe, it, expect } from '@jest/globals';
-import { getLibraryForBook } from '../../src/utils/libraryUtils';
-import { LIBRARIES } from '../../src/data/libraries';
+import { getLibraryForBook } from './libraryUtils';
+import { LIBRARIES } from '../data/libraries';
 
 describe('getLibraryForBook', () => {
     it('should assign a library to a valid book title', () => {

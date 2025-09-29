@@ -32,9 +32,9 @@ export const BookCarouselSkeleton = React.memo<BookCarouselSkeletonProps>(({
         aria-label="Loading book card"
       >
         <BaseCard className="bg-transparent border-none shadow-none">
-          <BaseCardContent className="p-2">
-            <LibraryCard loading={true} book={undefined} />
-          </BaseCardContent>
+            <BaseCardContent className="p-2">
+            <LibraryCard loading={true} book={{ title: '', author: '', checkouts: [], category: '' }} />
+            </BaseCardContent>
         </BaseCard>
       </BaseCarouselItem>
     )),

@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { LibraryCard, LibraryCardSkeleton } from '../components/LibraryCard';
+import { LibraryCard, LibraryCardSkeleton } from './LibraryCard';
 import type { Book } from '../../data/books'; 
 import '@testing-library/jest-dom';
 

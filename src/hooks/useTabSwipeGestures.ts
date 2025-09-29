@@ -42,19 +42,20 @@ export function useTabSwipeGestures({ activeTab, onTabChange, containerRef }: Us
     
     // Only trigger swipe if horizontal movement is significant and vertical is minimal
     if (Math.abs(deltaX) > 50 && deltaY < 100) {
-      const currentIndex = Tabs.indexOf(activeTab);
+      const tabValues = Object.values(Tabs) as TabType[];
+      const currentIndex = tabValues.indexOf(activeTab);
       let nextIndex = currentIndex;
 
       if (deltaX > 0 && currentIndex > 0) {
         // Swipe right - go to previous tab
         nextIndex = currentIndex - 1;
-      } else if (deltaX < 0 && currentIndex < Tabs.length - 1) {
+      } else if (deltaX < 0 && currentIndex < Object.values(Tabs).length - 1) {
         // Swipe left - go to next tab
         nextIndex = currentIndex + 1;
       }
 
       if (nextIndex !== currentIndex) {
-        onTabChange(Tabs[nextIndex]);
+        onTabChange(Object.values(Tabs)[nextIndex] as TabType);
       }
     }
 
