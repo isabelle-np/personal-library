@@ -3,9 +3,9 @@ import {
   createAllBooksCollection,
   getBooksForTab,
   verifyBookCategories,
-} from '../../src/utils/bookUtils';
-import { READ_BOOKS, CURRENTLY_READING_BOOKS, QUEUE_BOOKS } from '../../src/data/books';
-import { getLibraryForBook } from '../../src/utils/libraryUtils';
+} from './bookUtils';
+import { READ_BOOKS, CURRENTLY_READING_BOOKS, QUEUE_BOOKS } from '../data/books';
+import { getLibraryForBook } from './libraryUtils';
 
 describe('bookUtils', () => {
   describe('createAllBooksCollection', () => {

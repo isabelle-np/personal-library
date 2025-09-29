@@ -6,7 +6,7 @@ import {
   BaseTabsList,
   BaseTabsTrigger,
   BaseTabsContent,
-} from "../../../src/components/base/tabs/BaseTabs";
+} from "./BaseTabs";
 
 describe("BaseTabs", () => {
   it("renders tabs and their content correctly", () => {

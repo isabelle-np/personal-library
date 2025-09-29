@@ -1,4 +1,4 @@
-import { getStampColor, getRandomOffset, getRandomRotation, getTypewriterFont, DEFAULT_LIBRARY } from '../../src/utils/cardUtils';
+import { getStampColor, getRandomOffset, getRandomRotation, getTypewriterFont, DEFAULT_LIBRARY } from './cardUtils';
 
 describe('cardUtils', () => {
   describe('getStampColor', () => {
