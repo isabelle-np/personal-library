@@ -2,7 +2,7 @@ import * as React from 'react';
 import {cn} from '../../../utils/classNameUtils';
 import {cva} from 'class-variance-authority';
 
-// Define Tailwind class variants for card components
+// Extend the cardVariants to include additional styles found in LibraryCard and LibraryCardSkeleton
 const cardVariants = cva(
     'bg-card text-card-foreground flex flex-col gap-6 rounded-xl border',
     {
@@ -11,9 +11,33 @@ const cardVariants = cva(
           default: 'p-6',
           none: 'p-0',
         },
+        background: {
+          default: 'bg-card',
+          stone50: 'bg-stone-50',
+          stone100: 'bg-stone-100',
+        },
+        border: {
+          default: 'border',
+          stone200: 'border-2 border-stone-200',
+          stone300: 'border-b border-stone-300',
+        },
+        shadow: {
+          none: 'shadow-none',
+          default: 'shadow-lg',
+          hover: 'hover:shadow-xl',
+        },
+        transform: {
+          default: 'transform',
+          rotate1: 'rotate-1',
+          hoverRotate: 'hover:rotate-0',
+        },
       },
       defaultVariants: {
         padding: 'default',
+        background: 'default',
+        border: 'default',
+        shadow: 'none',
+        transform: 'default',
       },
     }
 );
