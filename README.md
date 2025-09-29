@@ -105,12 +105,10 @@ This project is licensed under the [MIT License](LICENSE).
 - Fully responsive layout across all devices.
 - Server-Side Rendering (SSR) implementation for better performance and SEO.
 - Redesign genre and status filtering to decouple logic and improve maintainability.
-- Implement complex state management using a robust library like Redux or Zustand.
 - Fetch book data via API or store in a database (Goodreads no longer supports their API).
 - Ensure semantic correctness by using links instead of buttons for navigation.
 - Add comprehensive unit tests for all components to improve reliability.
 - Improve AI analysis accuracy by integrating a more advanced model.
-- Analytics insights to track user interactions, such as most viewed books or genres.
 - AI-powered recommendations for new books based on current books.
 - Screen reader testing with NVDA to ensure accessibility for visually impaired users.
 - Adopt a feature-based folder structure for better scalability and maintainability.
@@ -118,14 +116,13 @@ This project is licensed under the [MIT License](LICENSE).
 - Achieve at least 80% test coverage and add end-to-end (E2E) tests using Cypress or Playwright.
 - Enable strict mode in TypeScript and define reusable types/interfaces for API responses and component props.
 - Use design tokens for consistent theming and consider CSS-in-JS libraries for dynamic styling needs.
-- Perform manual accessibility testing with screen readers and add keyboard navigation tests.
 - Optimize performance with React.memo, useCallback, code-splitting, and lazy loading.
 - Implement a service layer for API calls and use caching libraries like React Query or SWR.
-- Set up CI/CD pipelines with GitHub Actions or CircleCI for automated testing and deployment.
-- Add API documentation, a contribution guide, and a changelog for better collaboration.
+- Set up CI/CD pipelines with GitHub Actions for automated testing and deployment.
+- Add changelog.
 - Implement a global error boundary and log errors to a service like Sentry.
-- Sanitize user inputs, use HTTPS, and audit dependencies for vulnerabilities.
+- Audit dependencies for vulnerabilities.
 - Integrate analytics tools like Google Analytics or Mixpanel to track user interactions.
-- Plan for horizontal scaling with Docker and serverless functions.
+- Add feature flags with LaunchDarkly.
 
 I hope you enjoy learning more about me as an engineer and a person 📚
