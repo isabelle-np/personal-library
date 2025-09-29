@@ -1,5 +1,5 @@
 import React from 'react';
-import { BaseDialog, BaseDialogContent, BaseDialogHeader, BaseDialogTitle, BaseDialogDescription } from './base/dialog/BaseDialog';
+import { BaseDialog, BaseDialogContent, BaseDialogHeader, BaseDialogTitle, BaseDialogDescription } from '../base/dialog/BaseDialog';
 
 interface AIAnalysisModalProps {
   open: boolean;
