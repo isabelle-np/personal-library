@@ -5,8 +5,8 @@ import {
   type Book,
 } from "../data/books";
 import { getLibraryForBook } from "../utils/libraryUtils";
-import { FORM_NUMBER_BASE } from "../constants";
-import type { TabType } from "../constants";
+import { FORM_NUMBER_BASE } from "../components/libraryCard/formConstants";
+import type { TabType } from "../components/navigation/tabs";
 
 /**
  * Represents a collection of books with additional metadata.

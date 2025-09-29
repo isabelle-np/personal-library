@@ -1,0 +1,36 @@
+/* Styles for the library tabs component */
+.library-tabs-list {
+  background: #292524;
+  border: 1px solid #bb4d0080;
+  border-radius: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.library-tab-trigger {
+  color: #fed7aa;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  min-width: fit-content;
+  font-family: Cousine, monospace;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+@media (width <= 640px) {
+  .library-tab-trigger {
+    letter-spacing: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 12px;
+  }
+}
+
+@media (width <= 480px) {
+  .library-tab-trigger {
+    letter-spacing: 0.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
