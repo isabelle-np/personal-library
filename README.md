@@ -20,6 +20,7 @@
 - **AI Personality Analysis**: Gain insights into my personality based on the books in my library, offering a unique way to learn more about me.
 - **Goodreads Integration**: Clicking on a library card links to the Goodreads page for that book, allowing users to explore more details.
 - **Accessibility**: The page is fully accessible and passes an axe DevTools scan with no violations.
+- **Multi-Environment Configurations**: Firebase configurations are dynamically loaded based on the environment (development or production), ensuring seamless integration and deployment.
 
 ## Technologies Used
 
@@ -33,6 +34,7 @@
 - **Hosting**: Vercel
 - **Accessibility Testing**: axe DevTools
 - **Design**: Figma ([Mockup Link](https://www.figma.com/design/mve6jeokcjEJyzakmuNN4a/Library-Mock-Up?node-id=0-1&t=yrb0pyCtnYjoHgCl-1))
+- **Database**: Firebase
 
 ## Getting Started
 
@@ -67,7 +69,7 @@ Start the development server:
    npm run dev
    ```
 
-The application will be available at `http://localhost:3000`.
+The application will be available at the port defined in `.env` or fall back to the default `http://localhost:3000`.
 
 ## Contributing
 

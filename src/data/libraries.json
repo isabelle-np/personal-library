@@ -1,0 +1,34 @@
+{
+    "libraries": {
+        "library01": {
+            "name": "Library of Congress",
+            "address": "101 Independence Ave SE, Washington, DC 20540",
+            "shortName": "LOC"
+        },
+        "library02": {
+            "name": "Boston Public Library",
+            "address": "700 Boylston St, Boston, MA 02116",
+            "shortName": "BPL"
+        },
+        "library03": {
+            "name": "Free Library of Philadelphia Central",
+            "address": "1901 Vine St, Philadelphia, PA 19103",
+            "shortName": "FLP"
+        },
+        "library04": {
+            "name": "Arlington Public Library",
+            "address": "1015 N Quincy St, Arlington, VA 22201",
+            "shortName": "APL"
+        },
+        "library05": {
+            "name": "Boston University Mugar Library",
+            "address": "771 Commonwealth Ave, Boston, MA 02215",
+            "shortName": "BU"
+        },
+        "library06": {
+            "name": "Johns Hopkins Eisenhower Library",
+            "address": "3400 N Charles St, Baltimore, MD 21218",
+            "shortName": "JHU"
+        }
+    }
+}
