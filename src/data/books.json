@@ -1,0 +1,417 @@
+{
+  "books": {
+    "25899336": {
+      "title": "When Breath Becomes Air",
+      "authorFirst": "Paul",
+      "authorLast": "Kalanithi",
+      "deweyNumber": "616",
+      "category": "Currently Reading",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/25899336-when-breath-becomes-air",
+      "quote": "You can’t ever reach perfection, but you can believe in an asymptote toward which you are ceaselessly striving.",
+      "checkouts": [
+        { "date": "2025-01-15", "borrower": "Medical Student", "color": "blue" }
+      ]
+    },
+    "44144493": {
+      "title": "Fundamentals of Software Architecture: An Engineering Approach",
+      "authorFirst": "Mark",
+      "authorLast": "Richards",
+      "deweyNumber": "005",
+      "category": "Currently Reading",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture",
+      "quote": "Conway’s law: Organizations which design systems … are constrained to produce designs which are copies of the communication structures of these organizations.",
+      "checkouts": [
+        { "date": "2025-02-01", "borrower": "Senior Architect", "color": "green" }
+      ]
+    },
+    "832705": {
+      "title": "Systems Engineering Principles and Practice",
+      "authorFirst": "Alexander",
+      "authorLast": "Kossiakoff",
+      "deweyNumber": "620",
+      "category": "Currently Reading",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/832705.Systems_Engineering_Principles_and_Practice",
+      "quote": "Systems engineering is fundamentally a collaborative effort that requires the integration of multiple disciplines.",
+      "checkouts": [
+        { "date": "2025-04-01", "borrower": "Systems Engineer", "color": "red" }
+      ]
+    },
+    "22529127": {
+      "title": "Team of Teams: New Rules of Engagement for a Complex World",
+      "authorFirst": "Stanley",
+      "authorLast": "McChrystal",
+      "deweyNumber": "658",
+      "category": "Queue",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/22529127-team-of-teams",
+      "quote": "Efficiency is doing things right; effectiveness is doing the right thing.",
+      "checkouts": []
+    },
+    "13530973": {
+      "title": "Antifragile: Things That Gain from Disorder",
+      "authorFirst": "Nassim Nicholas",
+      "authorLast": "Taleb",
+      "deweyNumber": "003",
+      "category": "Queue",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/13530973-antifragile",
+      "quote": "The simpler, the better. Complications lead to multiplicative chains of unanticipated effects.",
+      "checkouts": []
+    },
+    "54120408": {
+      "title": "Klara and the Sun",
+      "authorFirst": "Kazuo",
+      "authorLast": "Ishiguro",
+      "deweyNumber": "823",
+      "category": "Queue",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/54120408-klara-and-the-sun",
+      "quote": "Hope,’ he said. ‘Damn thing never leaves you alone.",
+      "checkouts": []
+    },
+    "45303387": {
+      "title": "An Elegant Puzzle: Systems of Engineering Management",
+      "authorFirst": "Will",
+      "authorLast": "Larson",
+      "deweyNumber": "658",
+      "category": "Queue",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/45303387-an-elegant-puzzle",
+      "quote": "The next time you’re about to dive into fixing a complicated one-off situation, consider taking a step back and documenting the problem but not trying to solve it.",
+      "checkouts": []
+    },
+    "32620332": {
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "authorFirst": "Taylor Jenkins",
+      "authorLast": "Reid",
+      "deweyNumber": "813",
+      "category": "Queue",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/32620332-the-seven-husbands-of-evelyn-hugo",
+      "quote": "I’m under absolutely no obligation to make sense to you.",
+      "checkouts": []
+    },
+    "16118": {
+      "title": "The Wall",
+      "authorFirst": "Marlen",
+      "authorLast": "Haushofer",
+      "deweyNumber": "833",
+      "category": "Queue",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/16118.The_Wall",
+      "quote": "I think time stands quite still and we move around in it, sometimes slowly and sometimes at a furious rate.",
+      "checkouts": []
+    },
+    "42046112": {
+      "title": "Recursion",
+      "authorFirst": "Blake",
+      "authorLast": "Crouch",
+      "deweyNumber": "813",
+      "category": "Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/42046112-recursion",
+      "quote": "Life with a cheat code isn't life. Our existence isn't something to be engineered or optimized for the avoidance of pain. That's what it is to be human - the beauty and the pain, each meaningless without the other.",
+      "checkouts": [
+        { "date": "2019-01-15", "borrower": "Helena Smith", "color": "blue" },
+        { "date": "2019-02-20", "borrower": "Barry Sutton", "color": "red" },
+        { "date": "2019-03-18", "borrower": "Quantum Physicist", "color": "green" },
+        { "date": "2019-04-25", "borrower": "Memory Researcher", "color": "brown" },
+        { "date": "2019-05-30", "borrower": "Time Theorist", "color": "blue" }
+      ]
+    },
+    "9717": {
+      "title": "The Unbearable Lightness of Being",
+      "authorFirst": "Milan",
+      "authorLast": "Kundera",
+      "deweyNumber": "891",
+      "category": "Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/9717.The_Unbearable_Lightness_of_Being",
+      "quote": "And what can life be worth if the first rehearsal for life is life itself?",
+      "checkouts": [
+        { "date": "1968-01-20", "borrower": "Tomas", "color": "brown" },
+        { "date": "1968-02-18", "borrower": "Tereza", "color": "red" },
+        { "date": "1968-03-25", "borrower": "Sabina", "color": "blue" },
+        { "date": "1968-04-30", "borrower": "Franz", "color": "green" },
+        { "date": "1969-05-15", "borrower": "Prague Reader", "color": "brown" }
+      ]
+    },
+    "22034": {
+      "title": "The Godfather (The Godfather, #1)",
+      "authorFirst": "Mario",
+      "authorLast": "Puzo",
+      "deweyNumber": "813",
+      "category": "Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/22034.The_Godfather",
+      "quote": "Great men are not born great, they grow great.",
+      "checkouts": [
+        { "date": "1946-02-15", "borrower": "Vito Corleone", "color": "red" },
+        { "date": "1947-03-12", "borrower": "Michael Corleone", "color": "blue" },
+        { "date": "1948-04-08", "borrower": "Santino Corleone", "color": "brown" },
+        { "date": "1949-05-22", "borrower": "Fredo Corleone", "color": "green" },
+        { "date": "1950-06-14", "borrower": "Tom Hagen", "color": "red" },
+        { "date": "1951-07-30", "borrower": "Luca Brasi", "color": "blue" }
+      ]
+    },
+    "534571": {
+      "title": "The Secret Lives of People in Love",
+      "authorFirst": "Simon",
+      "authorLast": "Van Booy",
+      "deweyNumber": "813",
+      "category": "Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/534571.The_Secret_Lives_of_People_in_Love",
+      "quote": "Without memory, he thought, man would be invincible",
+      "checkouts": [
+        { "date": "2010-09-12", "borrower": "Contemporary Reader", "color": "red" },
+        { "date": "2011-10-08", "borrower": "Literary Student", "color": "blue" },
+        { "date": "2012-11-14", "borrower": "Romance Scholar", "color": "brown" },
+        { "date": "2013-12-22", "borrower": "Book Club Member", "color": "green" },
+        { "date": "2014-01-18", "borrower": "Fiction Lover", "color": "red" },
+        { "date": "2015-02-25", "borrower": "Short Story Fan", "color": "blue" },
+        { "date": "2016-03-30", "borrower": "Modern Reader", "color": "brown" }
+      ]
+    },
+    "35959740": {
+      "title": "Circe",
+      "authorFirst": "Madeline",
+      "authorLast": "Miller",
+      "deweyNumber": "813",
+      "category": "Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/35959740-circe",
+      "quote": "But in a solitary life, there are rare moments when another soul dips near yours, as stars once a year brush the earth. Such a constellation was he to me.",
+      "checkouts": [
+        { "date": "Ancient Era", "borrower": "Odysseus", "color": "blue" },
+        { "date": "Mythic Time", "borrower": "Hermes", "color": "green" },
+        { "date": "Golden Age", "borrower": "Athena", "color": "red" },
+        { "date": "Divine Epoch", "borrower": "Apollo", "color": "brown" },
+        { "date": "Timeless", "borrower": "Penelope", "color": "blue" }
+      ]
+    },
+    "53914938": {
+      "title": "The Rose Code",
+      "authorFirst": "Kate",
+      "authorLast": "Quinn",
+      "deweyNumber": "813",
+      "category": "Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/53914938-the-rose-code",
+      "quote": "We are not going quietly into the night. We are not fading away. We are here to stay.",
+      "checkouts": [
+        { "date": "1940-03-15", "borrower": "Osla Fleming", "color": "green" },
+        { "date": "1941-06-20", "borrower": "Mab Churt", "color": "blue" },
+        { "date": "1942-09-12", "borrower": "Beth Finch", "color": "red" },
+        { "date": "1943-12-18", "borrower": "Bletchley Codebreaker", "color": "brown" },
+        { "date": "1944-02-25", "borrower": "Intelligence Officer", "color": "green" }
+      ]
+    },
+    "170448": {
+      "title": "Animal Farm",
+      "authorFirst": "George",
+      "authorLast": "Orwell",
+      "deweyNumber": "823",
+      "category": "Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/170448.Animal_Farm",
+      "quote": "All animals are equal, but some animals are more equal than others.",
+      "checkouts": [
+        { "date": "1945-05-10", "borrower": "Napoleon", "color": "green" },
+        { "date": "1945-06-15", "borrower": "Snowball", "color": "blue" },
+        { "date": "1945-07-22", "borrower": "Boxer", "color": "red" },
+        { "date": "1945-08-30", "borrower": "Squealer", "color": "brown" },
+        { "date": "1945-09-18", "borrower": "Old Major", "color": "green" }
+      ]
+    },
+    "20170404": {
+      "title": "Station Eleven",
+      "authorFirst": "Emily St. John",
+      "authorLast": "Mandel",
+      "deweyNumber": "813",
+      "category": "Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/20170404-station-eleven",
+      "quote": "Survival is insufficient.",
+      "checkouts": [
+        { "date": "2014-10-15", "borrower": "Kirsten Raymonde", "color": "blue" },
+        { "date": "2014-11-22", "borrower": "Arthur Leander", "color": "red" },
+        { "date": "2014-12-18", "borrower": "Jeevan Chaudhary", "color": "green" },
+        { "date": "2015-01-25", "borrower": "Clark Thompson", "color": "brown" },
+        { "date": "2015-02-28", "borrower": "Miranda Carroll", "color": "blue" },
+        { "date": "2015-03-30", "borrower": "Tyler Leander", "color": "red" }
+      ]
+    },
+    "25189315": {
+      "title": "Smoke Gets in Your Eyes: And Other Lessons from the Crematory",
+      "authorFirst": "Caitlin",
+      "authorLast": "Doughty",
+      "deweyNumber": "393",
+      "category": "Non-Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/25189315-smoke-gets-in-your-eyes-other-lessons-from-the-crematory",
+      "quote": "Accepting death doesn't destroy hope. Quite the opposite. It frees you to live.",
+      "checkouts": [
+        { "date": "2014-10-12", "borrower": "Mortuary Student", "color": "blue" },
+        { "date": "2015-11-20", "borrower": "Death Positive Reader", "color": "red" },
+        { "date": "2016-12-15", "borrower": "Funeral Director", "color": "brown" },
+        { "date": "2017-01-25", "borrower": "Philosophy Student", "color": "green" },
+        { "date": "2018-02-28", "borrower": "Medical Professional", "color": "blue" },
+        { "date": "2019-03-18", "borrower": "Life Coach", "color": "red" }
+      ]
+    },
+    "56233032": {
+      "title": "An Ideal Presence",
+      "authorFirst": "Eduardo",
+      "authorLast": "Berti",
+      "deweyNumber": "863",
+      "category": "Non-Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/56233032-an-ideal-presence",
+      "quote": "Sometimes the most profound truths are found in the spaces between words.",
+      "checkouts": [
+        { "date": "2020-02-14", "borrower": "Literary Critic", "color": "brown" },
+        { "date": "2021-03-22", "borrower": "Translation Scholar", "color": "red" },
+        { "date": "2022-04-18", "borrower": "Contemporary Reader", "color": "blue" },
+        { "date": "2023-05-25", "borrower": "Book Reviewer", "color": "green" },
+        { "date": "2024-06-30", "borrower": "Fiction Explorer", "color": "brown" }
+      ]
+    },
+    "204905217": {
+      "title": "From Here to the Great Unknown",
+      "authorFirst": "Lisa Marie",
+      "authorLast": "Presley",
+      "deweyNumber": "782",
+      "category": "Non-Fiction",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/204905217-from-here-to-the-great-unknown",
+      "quote": "Music was the language we spoke when words weren't enough.",
+      "checkouts": [
+        { "date": "2024-10-08", "borrower": "Music Biographer", "color": "red" },
+        { "date": "2024-11-15", "borrower": "Memoir Reader", "color": "blue" },
+        { "date": "2024-12-20", "borrower": "Cultural Historian", "color": "brown" },
+        { "date": "2025-01-10", "borrower": "Music Journalist", "color": "green" },
+        { "date": "2025-02-14", "borrower": "Fan Biographer", "color": "red" }
+      ]
+    },
+    "3828902": {
+      "title": "Thinking In Systems: A Primer",
+      "authorFirst": "Donella H.",
+      "authorLast": "Meadows",
+      "deweyNumber": "003",
+      "category": "Business & Tech",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/3828902-thinking-in-systems",
+      "quote": "We can't impose our will on a system. We can listen to what the system tells us, and discover how its properties and our values can work together.",
+      "checkouts": [
+        { "date": "2008-03-15", "borrower": "Systems Analyst", "color": "green" },
+        { "date": "2009-06-22", "borrower": "Complexity Theorist", "color": "blue" },
+        { "date": "2010-09-18", "borrower": "Policy Researcher", "color": "red" },
+        { "date": "2011-12-05", "borrower": "Sustainability Expert", "color": "brown" },
+        { "date": "2012-02-28", "borrower": "Design Thinker", "color": "green" },
+        { "date": "2013-05-10", "borrower": "Systems Engineer", "color": "blue" }
+      ]
+    },
+    "63063173": {
+      "title": "Scaling People: Tactics for Management and Company Building",
+      "authorFirst": "Claire Hughes",
+      "authorLast": "Johnson",
+      "deweyNumber": "658",
+      "category": "Business & Tech",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/63063173-scaling-people",
+      "quote": "The best managers are multipliers—they make everyone around them better.",
+      "checkouts": [
+        { "date": "2023-09-12", "borrower": "COO", "color": "red" },
+        { "date": "2023-10-25", "borrower": "Head of Operations", "color": "blue" },
+        { "date": "2023-11-18", "borrower": "VP People", "color": "brown" },
+        { "date": "2023-12-20", "borrower": "Startup Founder", "color": "green" },
+        { "date": "2024-01-15", "borrower": "HR Director", "color": "red" },
+        { "date": "2024-02-28", "borrower": "Executive Coach", "color": "blue" }
+      ]
+    },
+    "2784": {
+      "title": "Ways of Seeing",
+      "authorFirst": "John",
+      "authorLast": "Berger",
+      "deweyNumber": "701",
+      "category": "Business & Tech",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/2784.Ways_of_Seeing",
+      "quote": "The relation between what we see and what we know is never settled.",
+      "checkouts": [
+        { "date": "1972-01-08", "borrower": "Art Critic", "color": "blue" },
+        { "date": "1973-02-15", "borrower": "Visual Studies Prof", "color": "red" },
+        { "date": "1974-03-20", "borrower": "Media Theorist", "color": "green" },
+        { "date": "1975-04-25", "borrower": "Cultural Analyst", "color": "brown" },
+        { "date": "1976-05-30", "borrower": "Design Student", "color": "blue" },
+        { "date": "1977-06-18", "borrower": "Photography Scholar", "color": "red" }
+      ]
+    },
+    "48816586": {
+      "title": "Software Engineering at Google: Lessons Learned from Programming Over Time",
+      "authorFirst": "Titus",
+      "authorLast": "Winters",
+      "deweyNumber": "005",
+      "category": "Business & Tech",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/48816586-software-engineering-at-google",
+      "quote": "Software engineering is programming integrated over time.",
+      "checkouts": [
+        { "date": "2020-03-20", "borrower": "Senior Engineer", "color": "blue" },
+        { "date": "2020-06-15", "borrower": "Tech Lead", "color": "red" },
+        { "date": "2020-09-08", "borrower": "Engineering Manager", "color": "green" },
+        { "date": "2020-12-10", "borrower": "Site Reliability Engineer", "color": "brown" },
+        { "date": "2021-03-22", "borrower": "Principal Engineer", "color": "blue" },
+        { "date": "2021-06-18", "borrower": "Software Architect", "color": "red" }
+      ]
+    },
+    "25275733": {
+      "title": "Narconomics: How to Run a Drug Cartel",
+      "authorFirst": "Tom",
+      "authorLast": "Wainwright",
+      "deweyNumber": "364",
+      "category": "Business & Tech",
+      "goodreadsUrl": "https://goodreads.com/book/show/25275733-narconomics",
+      "quote": "The most important thing to understand about organized crime is that it is, above all, organized.",
+      "checkouts": [
+        { "date": "2016-02-12", "borrower": "Economics Professor", "color": "red" },
+        { "date": "2016-05-18", "borrower": "Policy Analyst", "color": "blue" },
+        { "date": "2016-08-25", "borrower": "Criminology Student", "color": "brown" },
+        { "date": "2016-11-14", "borrower": "Business Strategist", "color": "green" },
+        { "date": "2017-02-20", "borrower": "Law Enforcement", "color": "red" },
+        { "date": "2017-05-30", "borrower": "Journalist", "color": "blue" }
+      ]
+    },
+    "33369254": {
+      "title": "The Manager's Path: A Guide for Tech Leaders Navigating Growth and Change",
+      "authorFirst": "Camille",
+      "authorLast": "Fournier",
+      "deweyNumber": "658",
+      "category": "Business & Tech",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/33369254-the-manager-s-path",
+      "quote": "The hardest part about management is that you're responsible for outcomes, but you can't actually do the work yourself anymore.",
+      "checkouts": [
+        { "date": "2017-03-14", "borrower": "Tech Lead", "color": "green" },
+        { "date": "2017-06-22", "borrower": "Engineering Manager", "color": "blue" },
+        { "date": "2017-09-18", "borrower": "VP Engineering", "color": "red" },
+        { "date": "2017-12-05", "borrower": "CTO", "color": "brown" },
+        { "date": "2018-03-20", "borrower": "Senior Manager", "color": "green" },
+        { "date": "2018-06-15", "borrower": "Director", "color": "blue" }
+      ]
+    },
+    "45767533": {
+      "title": "Resilient Management",
+      "authorFirst": "Lara",
+      "authorLast": "Hogan",
+      "deweyNumber": "658",
+      "category": "Business & Tech",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/45767533-resilient-management",
+      "quote": "Great managers are made when they understand that their job is to help their team succeed, not to be the one who succeeds.",
+      "checkouts": [
+        { "date": "2019-01-15", "borrower": "Engineering Manager", "color": "blue" },
+        { "date": "2019-04-22", "borrower": "Team Lead", "color": "green" },
+        { "date": "2019-07-18", "borrower": "People Manager", "color": "red" },
+        { "date": "2019-10-25", "borrower": "Director", "color": "brown" },
+        { "date": "2020-01-30", "borrower": "VP Engineering", "color": "blue" },
+        { "date": "2020-05-12", "borrower": "Senior Manager", "color": "green" }
+      ]
+    },
+    "840": {
+      "title": "The Design of Everyday Things",
+      "authorFirst": "Don",
+      "authorLast": "Norman",
+      "deweyNumber": "745",
+      "category": "Business & Tech",
+      "goodreadsUrl": "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things",
+      "quote": "Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs so well that the design is invisible.",
+      "checkouts": [
+        { "date": "1988-06-15", "borrower": "UX Designer", "color": "blue" },
+        { "date": "1990-09-22", "borrower": "Product Manager", "color": "red" },
+        { "date": "1995-01-18", "borrower": "Industrial Designer", "color": "green" },
+        { "date": "2000-03-25", "borrower": "Human Factors Expert", "color": "brown" },
+        { "date": "2005-07-14", "borrower": "Interface Designer", "color": "blue" },
+        { "date": "2010-10-30", "borrower": "Design Researcher", "color": "red" }
+      ]
+    }
+  }
+}
